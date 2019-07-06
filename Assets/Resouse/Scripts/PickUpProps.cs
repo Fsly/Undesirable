@@ -44,7 +44,7 @@ public class PickUpProps : MonoBehaviour
             if (waitTime <= 0)
             {
                 isWaitTime = false;
-                waitTime = 0.8f;
+                waitTime = 0.5f;
                 //显示道具
                 image.sprite = spList[nowNeed];
             }
