@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Prop
+  - Prop2
   layers:
   - Default
   - TransparentFX

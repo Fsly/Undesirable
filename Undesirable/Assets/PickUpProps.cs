@@ -45,7 +45,12 @@ public class PickUpProps : MonoBehaviour
             Destroy(collider.gameObject);
             //显示对号一秒
             image.sprite = sp_right;
-            isWaitTime = true;
+        }
+        if (collider.tag == "Prop2")
+        {
+            Destroy(collider.gameObject);
+            //显示对号一秒
+            image.sprite = sp_right;
         }
         isWaitTime = true;
     }
