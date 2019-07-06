@@ -1245,7 +1245,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7177426443777229765}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f1974ce6d89bf40b1f513329a06b7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 893a089dcc578f14a830f6b985ac69b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1914891479}
@@ -1482,3 +1482,5 @@ MonoBehaviour:
   speed: 1
   deadTime: 0
   isDead: 0
+  PrefabsList: []
+  pickupObj: {fileID: 0}
