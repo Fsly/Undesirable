@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player01 : MonoBehaviour
+public class Player02 : MonoBehaviour
 {
     private Animator anim;
 
@@ -23,50 +23,38 @@ public class Player01 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(this.transform.position.y<-10)
+        if (this.transform.position.y < -10)
         {
             //复位
         }
 
-        Player01Control();
-        
+        Player02Control();
     }
 
-    public void Player01Control()
+    public void Player02Control()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            anim.SetTrigger("Attack");
-        }
 
-        AnimatorStateInfo animatorInfo;
-        animatorInfo = anim.GetCurrentAnimatorStateInfo(0);
-        string name = anim.GetCurrentAnimatorClipInfo(0)[0].clip.name;
-        if (name != "FreeVoxelGirl-lose")//normalizedTime: 范围0 -- 1,  0是动作开始，1是动作结束
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            if (Input.GetKey(KeyCode.W))
-            {
-                SetState(up);
-            }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                SetState(down);
-            }
-            else if (Input.GetKey(KeyCode.A))
-            {
-                SetState(left);
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                SetState(right);
-            }
-            else
-            {
-                anim.SetFloat("Run", 0);
-            }
+            SetState(up);
+        }
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            SetState(down);
+        }
+        else if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            SetState(left);
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            SetState(right);
+        }
+        else
+        {
+            anim.SetFloat("Run", 0);
         }
     }
-
 
     public void SetState(int currState)
     {
@@ -90,7 +78,7 @@ public class Player01 : MonoBehaviour
                 break;
         }
         transform.Rotate(Vector3.up, rotateValue);
-        transform.Translate(transformValue,Space.World);
+        transform.Translate(transformValue, Space.World);
         oldState = State;
         State = currState;
     }
