@@ -11,6 +11,9 @@ public class PickUpProps : MonoBehaviour
     public Sprite sp_wrong;
     public Sprite[] sp_need;
 
+    public GameObject RightExplosion;
+    public GameObject WrongExplosion;
+
     public List<int> needList;
     public int nowNeed;
     public List<Sprite> spList;
@@ -61,13 +64,15 @@ public class PickUpProps : MonoBehaviour
             Destroy(collider.gameObject);
             //显示对号一秒
             image.sprite = sp_right;
-            if(nowNeed<4) nowNeed++;
+            if (nowNeed < 4) nowNeed++;
+            Instantiate(RightExplosion, collider.transform.position, collider.transform.rotation);
         }
         else
         {
             Destroy(collider.gameObject);
             //显示错号一秒
             image.sprite = sp_wrong;
+            Instantiate(WrongExplosion, collider.transform.position, collider.transform.rotation);
         }
         isWaitTime = true;
     }
