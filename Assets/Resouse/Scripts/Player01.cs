@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player01 : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class Player01 : MonoBehaviour
     public float MaxPower;
     public float MinPower;
     public float currentPower;
+    public Slider PowerSlider;
 
     // Start is called before the first frame update
     void Start()
@@ -65,13 +67,16 @@ public class Player01 : MonoBehaviour
 
     public void Player01Control()
     {
+        PowerSlider.value = currentPower;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             currentPower = MinPower;
+            PowerSlider.gameObject.SetActive(true);
         }
         if(Input.GetKey(KeyCode.Space))
         {
             currentPower += Time.deltaTime;
+            
         }
         if(Input.GetKeyUp(KeyCode.Space))
         {
@@ -79,7 +84,9 @@ public class Player01 : MonoBehaviour
             {
                 currentPower = MaxPower;
             }
+
             Attack();
+            PowerSlider.gameObject.SetActive(false);
         }
 
         AnimatorStateInfo animatorInfo;
