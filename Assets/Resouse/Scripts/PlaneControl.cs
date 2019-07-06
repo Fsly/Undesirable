@@ -80,7 +80,6 @@ public class PlaneControl : MonoBehaviour
         //随机位置
         changeList.Clear();
         int destoryNum = Random.Range(DestoryMinNum, DestoryMaxNum);
-        Debug.Log(destoryNum);
         for (int i = 0; i < destoryNum; i++)
         {
             int index = Random.Range(0, planeList.Count - 1);
