@@ -7439,6 +7439,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e68f150ad289d6b418308214c07c2d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabsList:
+  - {fileID: 2593310230581792903, guid: 929f3b4bd1a44064abb36aa63fd60170, type: 3}
+  - {fileID: 3850531317231517876, guid: 37b6ca2f3e588b64ab0e9a5f68b7d999, type: 3}
+  - {fileID: 9152112279953416336, guid: 5a70baabf710c9d44bc5981babc6430a, type: 3}
+  createNum: 3
+  CreateTime: 2
 --- !u!1 &1156012894
 GameObject:
   m_ObjectHideFlags: 0
@@ -12047,6 +12053,11 @@ MonoBehaviour:
   speed: 1
   deadTime: 2
   isDead: 0
+  PrefabsList:
+  - {fileID: 9152112279953416336, guid: 5a70baabf710c9d44bc5981babc6430a, type: 3}
+  - {fileID: 2593310230581792903, guid: 929f3b4bd1a44064abb36aa63fd60170, type: 3}
+  - {fileID: 3850531317231517876, guid: 37b6ca2f3e588b64ab0e9a5f68b7d999, type: 3}
+  pickupObj: {fileID: 0}
 --- !u!1 &1724102434
 GameObject:
   m_ObjectHideFlags: 0

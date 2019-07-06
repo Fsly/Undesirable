@@ -18,6 +18,11 @@ public class Player01 : MonoBehaviour
     private int right = 1;
     private int down = 2;
     private int left = 3;
+
+    public List<GameObject> PrefabsList;
+
+    public GameObject pickupObj;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +62,7 @@ public class Player01 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetTrigger("Attack");
+            SendPrefabs();
         }
 
         AnimatorStateInfo animatorInfo;
@@ -87,6 +93,11 @@ public class Player01 : MonoBehaviour
         }
     }
 
+    public void SendPrefabs()
+    {
+
+    }
+
 
     public void SetState(int currState)
     {
@@ -113,5 +124,24 @@ public class Player01 : MonoBehaviour
         transform.Translate(transformValue,Space.World);
         oldState = State;
         State = currState;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag=="Prop")
+        {
+            pickupObj = PrefabsList[0];
+            Destroy(other.gameObject);
+        }
+        else if(other.tag=="Prop2")
+        {
+            pickupObj = PrefabsList[1];
+            Destroy(other.gameObject);
+        }
+        else if(other.tag=="Prop3")
+        {
+            pickupObj = PrefabsList[2];
+            Destroy(other.gameObject);
+        }
     }
 }

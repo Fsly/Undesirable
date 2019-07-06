@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2593310230579531335}
   - component: {fileID: 2593310230589186887}
   - component: {fileID: 2593310230433320918}
+  - component: {fileID: 1347040830688945721}
   m_Layer: 0
   m_Name: JinBi 1
   m_TagString: Prop2
@@ -27,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2593310230581792903}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.81, y: 1.128, z: -0.818}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2593310230578531463
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -112,3 +113,18 @@ CapsuleCollider:
   m_Height: 1.3125403
   m_Direction: 1
   m_Center: {x: 0.00000005960466, y: 0, z: 0}
+--- !u!114 &1347040830688945721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2593310230581792903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0897cbd91e749ed498594f9b77a90cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isX: 0
+  isY: 1
+  isZ: 0
