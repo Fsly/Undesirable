@@ -618,10 +618,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: cf4edc05-517e-4fb3-afb9-3b4f307e4f59
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Undesirable
+  organizationId: fsly
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
