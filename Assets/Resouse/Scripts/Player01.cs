@@ -95,7 +95,7 @@ public class Player01 : MonoBehaviour
 
     public void SendPrefabs()
     {
-
+        //Instantiate
     }
 
 
