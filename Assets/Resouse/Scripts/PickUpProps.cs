@@ -22,6 +22,8 @@ public class PickUpProps : MonoBehaviour
 
     public bool isWaitTime = false;
 
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,6 +67,7 @@ public class PickUpProps : MonoBehaviour
             //显示对号一秒
             image.sprite = sp_right;
             if (nowNeed < 4) nowNeed++;
+            GameManager._instance.score++;
             Instantiate(RightExplosion, collider.transform.position, collider.transform.rotation);
         }
         else
@@ -72,6 +75,7 @@ public class PickUpProps : MonoBehaviour
             Destroy(collider.gameObject);
             //显示错号一秒
             image.sprite = sp_wrong;
+            GameManager._instance.totalTime -= 5;
             Instantiate(WrongExplosion, collider.transform.position, collider.transform.rotation);
         }
         isWaitTime = true;

@@ -131,7 +131,7 @@ public class Player01 : MonoBehaviour
     {
         GameObject go = Instantiate(pickupObj, sendPos.position,pickupObj.transform.rotation);
         go.GetComponent<Rigidbody>().useGravity = true;
-        go.GetComponent<Rigidbody>().AddForce(new Vector3(1,1,0)*sendForce*currentPower);
+        go.GetComponent<Rigidbody>().AddForce((transform.forward+new Vector3(0,1,0))*sendForce*currentPower);
     }
 
 

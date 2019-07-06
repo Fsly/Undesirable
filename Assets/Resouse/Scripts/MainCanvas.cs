@@ -34,7 +34,7 @@ public class MainCanvas : MonoBehaviour
         }
         else
         {
-            currimage.GetComponent<Image>().sprite = null;
+            currimage.GetComponent<Image>().sprite = images[3];
         }
     }
 }
