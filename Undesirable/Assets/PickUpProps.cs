@@ -7,11 +7,12 @@ public class PickUpProps : MonoBehaviour
 {
 
     public Image image;
-    public Sprite sp;
+    public Sprite sp_right;
+    public Sprite sp_need;
 
-    public float startTime;
+    public float waitTime;
 
-    public bool isStartTime = false;
+    public bool isWaitTime = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,14 +23,16 @@ public class PickUpProps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isStartTime)
+        //计算冷却
+        if (isWaitTime)
         {
-            startTime -= Time.deltaTime;
-            if (startTime <= 0)
+            waitTime -= Time.deltaTime;
+            if (waitTime <= 0)
             {
-                isStartTime = false;
-                //显示对号
-                image.sprite = sp;
+                isWaitTime = false;
+                waitTime = 1f;
+                //显示道具
+                image.sprite = sp_need;
             }
         }
     }
@@ -40,7 +43,10 @@ public class PickUpProps : MonoBehaviour
         if (collider.tag == "Prop")
         {
             Destroy(collider.gameObject);
-            isStartTime = true;
+            //显示对号一秒
+            image.sprite = sp_right;
+            isWaitTime = true;
         }
+        isWaitTime = true;
     }
 }
