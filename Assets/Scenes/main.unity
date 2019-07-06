@@ -329,11 +329,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -427,7 +422,7 @@ GameObject:
   - component: {fileID: 66247911}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (35)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -734,11 +729,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -1293,7 +1283,7 @@ GameObject:
   - component: {fileID: 203706094}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (9)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1486,7 +1476,7 @@ GameObject:
   - component: {fileID: 229357511}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (29)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1868,11 +1858,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (40)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1966,7 +1951,7 @@ GameObject:
   - component: {fileID: 303631903}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (22)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2070,7 +2055,7 @@ GameObject:
   - component: {fileID: 312132555}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (6)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2174,7 +2159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &314608265
 Transform:
   m_ObjectHideFlags: 0
@@ -2213,11 +2198,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -2308,11 +2288,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2401,11 +2376,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -2500,7 +2470,7 @@ GameObject:
   - component: {fileID: 396387625}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (16)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2797,7 +2767,7 @@ GameObject:
   - component: {fileID: 414943488}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (34)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3109,7 +3079,7 @@ GameObject:
   - component: {fileID: 464345960}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (7)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3277,8 +3247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69730c1ecff06249849940f5a3d84ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestoryMinNum: 20
-  DestoryMaxNum: 30
+  DestoryMinNum: 1
+  DestoryMaxNum: 5
   planeList:
   - {fileID: 1197445385}
   - {fileID: 887294884}
@@ -3320,7 +3290,7 @@ MonoBehaviour:
   nonalMat: {fileID: 2100000, guid: 796cd0c3ac23509499595045e87638d9, type: 2}
   warningMat: {fileID: 2100000, guid: aae41d8a27f26934da7e8abb7ddf0ee7, type: 2}
   startTime: 1
-  destoryTime: 10
+  destoryTime: 5
   waitTime: 2
   isStartTime: 1
   isWaitTime: 0
@@ -3341,7 +3311,7 @@ GameObject:
   - component: {fileID: 482155774}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (23)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3634,11 +3604,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (37)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3732,7 +3697,7 @@ GameObject:
   - component: {fileID: 505093794}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (21)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4272,11 +4237,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4365,11 +4325,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -4464,7 +4419,7 @@ GameObject:
   - component: {fileID: 614479848}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (20)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4563,11 +4518,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -4766,7 +4716,7 @@ GameObject:
   - component: {fileID: 622149761}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (19)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4865,11 +4815,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -5168,11 +5113,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (33)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5365,11 +5305,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (41)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -5642,7 +5577,7 @@ GameObject:
   - component: {fileID: 813682382}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (4)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5742,11 +5677,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5836,11 +5766,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5929,11 +5854,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -6028,7 +5948,7 @@ GameObject:
   - component: {fileID: 887294885}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (1)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6132,7 +6052,7 @@ GameObject:
   - component: {fileID: 897466884}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (26)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6231,11 +6151,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -6454,7 +6369,7 @@ GameObject:
   - component: {fileID: 952390853}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (39)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6558,7 +6473,7 @@ GameObject:
   - component: {fileID: 964778969}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (12)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6657,11 +6572,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -7053,7 +6963,7 @@ GameObject:
   - component: {fileID: 1039508086}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (2)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7246,7 +7156,7 @@ GameObject:
   - component: {fileID: 1082055780}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (13)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8148,7 +8058,7 @@ GameObject:
   - component: {fileID: 1197445386}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8560,11 +8470,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8740,7 +8645,7 @@ GameObject:
   - component: {fileID: 1239410122}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (25)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8944,11 +8849,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9146,11 +9046,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -9419,11 +9314,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (27)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9691,11 +9581,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9784,11 +9669,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -9883,7 +9763,7 @@ GameObject:
   - component: {fileID: 1392816727}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (37)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9987,7 +9867,7 @@ GameObject:
   - component: {fileID: 1443564612}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (41)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10269,7 +10149,7 @@ GameObject:
   - component: {fileID: 1471793221}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (5)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10462,7 +10342,7 @@ GameObject:
   - component: {fileID: 1496066586}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (36)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10670,7 +10550,7 @@ GameObject:
   - component: {fileID: 1500261884}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (8)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10978,11 +10858,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (35)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11076,7 +10951,7 @@ GameObject:
   - component: {fileID: 1521836726}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (27)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11280,11 +11155,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11378,7 +11248,7 @@ GameObject:
   - component: {fileID: 1592258656}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (11)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11477,11 +11347,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -11962,7 +11827,7 @@ GameObject:
   - component: {fileID: 1660445966}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (28)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12066,7 +11931,7 @@ GameObject:
   - component: {fileID: 1663149660}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (18)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12170,7 +12035,7 @@ GameObject:
   - component: {fileID: 1681529011}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (30)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12708,7 +12573,7 @@ GameObject:
   - component: {fileID: 1780541849}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (15)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12812,7 +12677,7 @@ GameObject:
   - component: {fileID: 1786644812}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (33)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12911,11 +12776,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -13288,11 +13148,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (26)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13381,11 +13236,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (36)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -13480,7 +13330,7 @@ GameObject:
   - component: {fileID: 1875379387}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (14)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14040,11 +13890,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14133,11 +13978,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -14232,7 +14072,7 @@ GameObject:
   - component: {fileID: 1995520900}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (32)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14332,11 +14172,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14425,11 +14260,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
@@ -14713,11 +14543,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
-      objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14811,7 +14636,7 @@ GameObject:
   - component: {fileID: 2058669148}
   m_Layer: 0
   m_Name: SciFi_Modular_Semiotic_Hazard_Warning_01 (40)
-  m_TagString: Plane02
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14988,11 +14813,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SciFi_Modular_Semiotic_Hazard_Warning_01 (39)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4356038626890307893, guid: 5ce74d2434c72364e9548cc8c793092c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Plane02
       objectReference: {fileID: 0}
     - target: {fileID: 4359161079279582383, guid: 5ce74d2434c72364e9548cc8c793092c,
         type: 3}
