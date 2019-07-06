@@ -5,8 +5,12 @@ using UnityEngine;
 public class Player02 : MonoBehaviour
 {
     private Animator anim;
+    public Transform parent;
 
     public float speed;
+    public float deadTime;
+
+    public bool isDead = false;
 
     private int State;
     private int oldState;
@@ -23,12 +27,28 @@ public class Player02 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.transform.position.y < -10)
+        if (!isDead)
         {
-            //复位
-        }
+            if (this.transform.position.y < -1)
+            {
+                //复位
+                isDead = true;
+            }
 
-        Player02Control();
+            Player02Control();
+
+        }
+        else
+        {
+            deadTime -= Time.deltaTime;
+        }
+        if (deadTime <= 0)
+        {
+            isDead = false;
+            deadTime = 2f;
+            this.transform.position = new Vector3(parent.transform.position.x + 1f, parent.transform.position.y + 1f, parent.transform.position.z + 1f);
+            this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
     }
 
     public void Player02Control()

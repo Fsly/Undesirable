@@ -8367,7 +8367,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 57.3
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -12014,8 +12014,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 0.4
+  m_Height: 0.8
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!114 &1708690694
@@ -12030,7 +12030,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2572cd99c9e24b5459aa7d934d926e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parent: {fileID: 1147341676}
   speed: 1
+  deadTime: 2
+  isDead: 0
 --- !u!1 &1724102434
 GameObject:
   m_ObjectHideFlags: 0
@@ -12153,7 +12156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39acb7fbb311b5c4787d63fe985e7f18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parent: {fileID: 479318879}
   speed: 1
+  deadTime: 2
+  isDead: 0
 --- !u!136 &1736847242
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12165,7 +12171,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.4
-  m_Height: 0.87
+  m_Height: 0.8
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &1736847243
