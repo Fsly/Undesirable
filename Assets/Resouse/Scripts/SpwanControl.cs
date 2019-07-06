@@ -36,7 +36,7 @@ public class SpwanControl : MonoBehaviour
             float z = Random.Range(0.2f, 2.3f);
             int index = Random.Range(0, prefabsList.Count);
             GameObject go = Instantiate(prefabsList[index]);
-            go.transform.position = new Vector3(x, 0.2f, z);
+            go.transform.position = new Vector3(x, 0.3f, z);
         }
     }
     

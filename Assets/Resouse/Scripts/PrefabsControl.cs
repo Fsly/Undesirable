@@ -23,5 +23,12 @@ public class PrefabsControl : MonoBehaviour
         else if (isZ)
             transform.Rotate(new Vector3(0, 0, 1));
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag=="Plane02")
+        {
+            gameObject.GetComponent<Rigidbody>().useGravity = false;
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
+    }
 }

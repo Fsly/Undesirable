@@ -22,6 +22,12 @@ public class Player01 : MonoBehaviour
     public List<GameObject> PrefabsList;
 
     public GameObject pickupObj;
+    public Transform sendPos;
+    public float sendForce;
+
+    public float MaxPower;
+    public float MinPower;
+    public float currentPower;
 
     // Start is called before the first frame update
     void Start()
@@ -61,8 +67,19 @@ public class Player01 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            anim.SetTrigger("Attack");
-            SendPrefabs();
+            currentPower = MinPower;
+        }
+        if(Input.GetKey(KeyCode.Space))
+        {
+            currentPower += Time.deltaTime;
+        }
+        if(Input.GetKeyUp(KeyCode.Space))
+        {
+            if(currentPower>MaxPower)
+            {
+                currentPower = MaxPower;
+            }
+            Attack();
         }
 
         AnimatorStateInfo animatorInfo;
@@ -93,9 +110,21 @@ public class Player01 : MonoBehaviour
         }
     }
 
+    public void Attack()
+    {
+        anim.SetTrigger("Attack");
+        if (pickupObj != null)
+        {
+            SendPrefabs();
+            pickupObj = null;
+        }
+    }
+
     public void SendPrefabs()
     {
-        //Instantiate
+        GameObject go = Instantiate(pickupObj, sendPos.position,pickupObj.transform.rotation);
+        go.GetComponent<Rigidbody>().useGravity = true;
+        go.GetComponent<Rigidbody>().AddForce(new Vector3(1,1,0)*sendForce*currentPower);
     }
 
 
