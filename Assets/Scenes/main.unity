@@ -13256,7 +13256,7 @@ MonoBehaviour:
   sp_need:
   - {fileID: 21300000, guid: aa1f18cc35f020445b05663fe6717fd5, type: 3}
   - {fileID: 21300000, guid: 57ea885b7c28a534e9eb17bdcc9b0035, type: 3}
-  - {fileID: 21300000, guid: dde9d6f7a62203c488f145c4e4c474ad, type: 3}
+  - {fileID: 21300000, guid: 073de5564c040ed47b5aa66b3301a86a, type: 3}
   RightExplosion: {fileID: 100012, guid: 384371afbb4354cc9a3fc68eab303756, type: 3}
   WrongExplosion: {fileID: 195792, guid: 89e78efe92dfe5a42837b392cdb0bf9e, type: 3}
   needList: 
@@ -15290,7 +15290,7 @@ MonoBehaviour:
   images:
   - {fileID: 21300000, guid: aa1f18cc35f020445b05663fe6717fd5, type: 3}
   - {fileID: 21300000, guid: 57ea885b7c28a534e9eb17bdcc9b0035, type: 3}
-  - {fileID: 21300000, guid: dde9d6f7a62203c488f145c4e4c474ad, type: 3}
+  - {fileID: 21300000, guid: 073de5564c040ed47b5aa66b3301a86a, type: 3}
   - {fileID: 21300000, guid: 79c276ea56ab57145a23da37b2f059d7, type: 3}
 --- !u!1001 &2000838352
 PrefabInstance:
