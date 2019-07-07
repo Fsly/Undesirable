@@ -18,11 +18,13 @@ public class PickUpProps : MonoBehaviour
     public int nowNeed;
     public List<Sprite> spList;
 
+    public Slider ShowSlider;
+
     public float waitTime;
 
     public bool isWaitTime = false;
 
-   
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,8 @@ public class PickUpProps : MonoBehaviour
         }
         image.sprite = spList[nowNeed];
         //for (int i = 0; i < 5; i++) Debug.Log(needList[i]);
+
+        ShowSlider.value = 0;
     }
 
     // Update is called once per frame
@@ -53,6 +57,7 @@ public class PickUpProps : MonoBehaviour
                 //显示道具
                 image.sprite = spList[nowNeed];
             }
+            ShowSlider.value = 0.2f * nowNeed;
         }
     }
 
