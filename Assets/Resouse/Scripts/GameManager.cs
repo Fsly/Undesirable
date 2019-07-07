@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
 
     public bool isEnd = false;
 
+    public Slider scoreSlider;
+
     // Start is called before the first frame update
     void Start()
     {

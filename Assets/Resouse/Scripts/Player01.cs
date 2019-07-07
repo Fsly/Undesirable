@@ -70,6 +70,7 @@ public class Player01 : MonoBehaviour
         PowerSlider.value = currentPower;
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            
             currentPower = MinPower;
             PowerSlider.gameObject.SetActive(true);
         }
@@ -77,10 +78,12 @@ public class Player01 : MonoBehaviour
         {
             currentPower += Time.deltaTime;
             
+            
         }
         if(Input.GetKeyUp(KeyCode.Space))
         {
-            if(currentPower>MaxPower)
+            gameObject.GetComponent<AudioSource>().Play();
+            if (currentPower>MaxPower)
             {
                 currentPower = MaxPower;
             }
@@ -129,6 +132,7 @@ public class Player01 : MonoBehaviour
 
     public void SendPrefabs()
     {
+        
         GameObject go = Instantiate(pickupObj, sendPos.position,pickupObj.transform.rotation);
         go.GetComponent<Rigidbody>().useGravity = true;
         go.GetComponent<Rigidbody>().AddForce((transform.forward+new Vector3(0,1,0))*sendForce*currentPower);

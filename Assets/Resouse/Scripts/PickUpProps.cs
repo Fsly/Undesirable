@@ -68,6 +68,7 @@ public class PickUpProps : MonoBehaviour
             image.sprite = sp_right;
             if (nowNeed < 4) nowNeed++;
             GameManager._instance.score++;
+            GameManager._instance.scoreSlider.value = GameManager._instance.score;
             Instantiate(RightExplosion, collider.transform.position, collider.transform.rotation);
         }
         else
