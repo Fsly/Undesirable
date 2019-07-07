@@ -14,6 +14,7 @@ public class Pause : MonoBehaviour
     {
         PauseFrame.SetActive(false);
         isPause = false;
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -21,7 +22,9 @@ public class Pause : MonoBehaviour
     {
         if (!isPause && Input.GetKeyDown(KeyCode.P))
         {
-            
+            PauseFrame.SetActive(true);
+            isPause = true;
+            Time.timeScale = 0;
         }
         if (isPause && Input.GetKeyDown(KeyCode.R))
         {
@@ -30,11 +33,13 @@ public class Pause : MonoBehaviour
         }
         if (isPause && Input.GetKeyDown(KeyCode.Q))
         {
-            SceneManager.LoadScene("log");
+            SceneManager.LoadScene("StartInterface");
         }
         if (isPause && Input.GetKeyDown(KeyCode.C))
         {
-            SceneManager.LoadScene("log");
+            PauseFrame.SetActive(false);
+            isPause = false;
+            Time.timeScale = 1;
         }
     }
 }
