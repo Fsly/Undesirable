@@ -57,7 +57,8 @@ public class PickUpProps : MonoBehaviour
                 //显示道具
                 image.sprite = spList[nowNeed];
             }
-            ShowSlider.value = 0.2f * nowNeed;
+            if (nowNeed < 4) ShowSlider.value = 0.2f * nowNeed;
+            else ShowSlider.value = 1;
         }
     }
 
