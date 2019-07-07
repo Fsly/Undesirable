@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6640,7 +6640,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 5
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
@@ -8248,6 +8248,7 @@ MonoBehaviour:
   - {fileID: 9152112279953416336, guid: 5a70baabf710c9d44bc5981babc6430a, type: 3}
   createNum: 3
   CreateTime: 2
+  PropSlider: {fileID: 903006278}
 --- !u!1 &1156012894
 GameObject:
   m_ObjectHideFlags: 0
@@ -13873,7 +13874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.8, y: 0.5}
+  m_AnchoredPosition: {x: 1.800003, y: 0.5}
   m_SizeDelta: {x: -15.49, y: -16.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816082476
@@ -13975,7 +13976,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 1
+  m_FillAmount: 0.2
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0

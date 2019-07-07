@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpwanControl : MonoBehaviour
 {
     public List<GameObject> prefabsList;
     public int createNum;
     public float CreateTime;
+    public Slider PropSlider;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,7 @@ public class SpwanControl : MonoBehaviour
         }
         else
         {
+            PropSlider.value = CreateTime-5;
             CreateTime -= Time.deltaTime;
         }
     }
